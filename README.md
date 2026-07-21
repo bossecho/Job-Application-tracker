@@ -4,26 +4,28 @@
 ![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?logo=vite)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38BDF8?logo=tailwindcss)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-In_Development-orange)
+![Status](https://img.shields.io/badge/Status-98%25_Complete-brightgreen)
 
-A modern and responsive **Job Application Tracker** built with **React**, **Vite**, and **Tailwind CSS**. This project helps job seekers efficiently organize and monitor their job applications through an intuitive dashboard, analytics, notes, and wishlist management.
+A modern and responsive **Job Application Tracker** built with **React**, **PHP**, **MySQL**, and **Tailwind CSS**. The system enables job seekers to organize applications, monitor application progress, manage company wishlists, keep interview notes, and visualize job search statistics through an interactive dashboard.
 
-Designed with a clean **dark minimalist interface**, the application focuses on improving productivity throughout the job search process.
+The project follows a clean **dark minimalist dashboard** design and demonstrates full-stack development using a REST API, responsive UI, and database-driven CRUD operations.
 
 ---
 
 ## ✨ Features
 
 - 📊 Interactive Dashboard
-- 📄 Application Management
-- ➕ Add Application Modal
+- 💼 Job Application Management
+- ➕ Add, Edit & Delete Applications
 - ❤️ Wishlist Management
-- 📝 Personal Notes
+- 📝 Notes Management
 - 📈 Analytics Dashboard
-- 📊 Charts and Statistics
-- ⚙️ Settings Page
-- 🌙 Dark Minimalist UI
+- 📊 Charts & Application Statistics
+- 🔍 Search, Filter & Sorting
 - 📱 Responsive Design
+- 🌙 Dark Minimalist UI
+- 🔗 REST API Integration
+- 🗄️ MySQL Database
 
 ---
 
@@ -34,9 +36,12 @@ Designed with a clean **dark minimalist interface**, the application focuses on 
 | React.js | Frontend Framework |
 | Vite | Build Tool |
 | Tailwind CSS | UI Styling |
-| React Router | Page Routing |
+| React Router | Client-side Routing |
 | Lucide React | Icons |
-| Recharts | Charts & Analytics |
+| Recharts | Analytics Charts |
+| PHP | REST API Backend |
+| MySQL | Database |
+| XAMPP | Local Development Environment |
 
 ---
 
@@ -110,25 +115,6 @@ Designed with a clean **dark minimalist interface**, the application focuses on 
 
 ---
 
-# 📂 Project Structure
-
-```text
-job-application-tracker/
-│
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── layouts/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── public/
-│
-├── package.json
-├── vite.config.js
-└── README.md
-```
 
 ---
 
@@ -195,18 +181,6 @@ http://localhost:5173
 
 ---
 
-# 🎯 Future Enhancements
-
-- User Authentication
-- PHP & MySQL Backend Integration
-- Full CRUD Operations
-- Advanced Search & Filtering
-- Email Interview Reminders
-- Calendar Integration
-- Resume Management
-- Export to Excel/PDF
-- Drag-and-Drop Kanban Board
-- Cloud Data Synchronization
 
 ---
 
