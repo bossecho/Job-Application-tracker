@@ -111,7 +111,7 @@ The project follows a clean **dark minimalist dashboard** design and demonstrate
 
 ### Preferences
 
-![Settings](settingpage2.png)
+![Settings](seetingpage2.png)
 
 ---
 
